@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.Flat-earth{
+    width: 100%;
+}
+.banner{
+    display: none;
+    
+}
+.conspiracy {
+    width: 100%
+
+}
+.conspiracy h2{
+    padding: 30px 30px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:rgb(31, 54, 33);
+    
+}
+.conspiracy p{
+    padding: 0px 30px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:rgb(36, 63, 38);
+    line-height: 24px;
+
+}
+.Portrait{
+    width:100%
+}
+@media only screen and (min-width: 768px) {
+    .banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .Flat-earth{
+        width: 600px;
+        margin: 0 auto;
+
+    }
+    .conspiracy h2{
+        padding: 30px 0px 0px;
+    }
+    .conspiracy p{
+        padding: 20px 0px 0px;
+        
+    }
+    .Portrait{
+        padding-top: 30px ;
+    }
+    }
+    @media only screen and (min-width: 1000px) {
+        .Flat-earth{
+            width: 1000px;
+
+        }  
+        .conspiracy{
+            /* display: flex;
+            justify-content: flex-end */
+
+            padding-top: 0px;
+            width: 50%;
+            float: right;
+        }
+
+        .conspiracy h2{
+            padding: 20px 0px 0px 30px;
+        }
+
+        .conspiracy p{
+            padding: 20px 0px 0px 30px;
+        }
+        .Portrait{
+            /* display: flex; */
+            /* justify-content: flex-start; */
+
+            padding-top: 0px;
+            width: 50%;
+            float: left;
+
+
+        }
+    }
